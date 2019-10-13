@@ -1,0 +1,29 @@
+img {
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+
+}
+
+#splash {
+    width: 100vw;
+    height: auto;
+}
+
+#splash_video {
+    width: 100vw;
+    height: auto;
+    max-height: 110vh;
+    overflow: hidden;
+}
+
+#splash_video video {
+    width: 100vw !important;
+    height: auto;
+}
