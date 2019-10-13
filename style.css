@@ -1,3 +1,27 @@
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+}
+
+h1 {
+    font-family: 'Cairo', sans-serif;
+    margin: 0;
+    font-size: 2.3em;
+}
+
+h2 {
+    font-family: 'Cairo', sans-serif;
+    margin: 0;
+    font-size: 2em;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    font-size: 1.5em;
+}
+
+
 img {
     width: 100%;
 }
@@ -26,4 +50,138 @@ body {
 #splash_video video {
     width: 100vw !important;
     height: auto;
+}
+
+
+/*FØRSTE*/
+
+#første {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 3vw 20vw;
+}
+
+#første .txt {
+    flex-grow: 1;
+}
+
+/*ANDEN*/
+
+#anden {
+    background-color: #404A59;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 3vw 20vw;
+}
+
+#anden .txt {
+    flex-grow: 1;
+}
+
+/*TREDJE*/
+
+#tredje h2 {
+    margin: 0vw 0vw 2vw 0vw;
+
+}
+
+#tredje {
+    background-color: #EAEAEA;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 3vw 15vw;
+}
+
+#tredje .img_txt {
+    align-items: center;
+    flex-basis: 300px;
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: nowrap;
+    direction: row;
+}
+
+#tredje .txt {
+    flex-basis: 300px;
+    flex-grow: 1;
+    padding: 0vw 0vw 0vw 3vw;
+}
+
+
+#tredje .img {
+    flex-basis: 400px;
+    flex-grow: 1;
+    padding: 0vw 3vw 0vw 0vw;
+}
+
+/*FJERDE*/
+
+#fjerde {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 3vw 20vw;
+}
+
+#fjerde .txt {
+    flex-grow: 1;
+}
+
+
+
+/*FEMTE*/
+
+#femte {
+    color: #ffffff;
+}
+
+#femte {
+    background-color: #3e4857;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 3vw 10vw;
+}
+
+#femte .img_txt {
+    flex-basis: 300px;
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    direction: row;
+}
+
+#femte .col {
+    flex-basis: 150px;
+    flex-grow: 1;
+    padding: 1vw;
+}
+
+/*SJETE*/
+
+#sjete {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5vw 20vw;
+}
+
+#sjete .txt {
+    flex-grow: 1;
+}
+
+/*SJETE*/
+
+#syvende {
+    background-color: #EAEAEA;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3vw 20vw;
+
+}
+
+#sjete .txt {
+    flex-grow: 1;
 }
