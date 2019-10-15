@@ -200,6 +200,64 @@ body {
     flex-grow: 1;
 }
 
+/*FORM*/
+
+#form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 2vw 20vw;
+
+}
+
+#form form {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9em;
+    padding: 1vw 1vw;
+    margin: 1vw 0vw;
+    background-color: #EAEAEA;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+textarea {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9em;
+    padding: 1vw 1vw;
+    margin: 1vw 0vw;
+    background-color: #EAEAEA;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+button {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    padding: 1.3vw 1vw;
+    margin: 1vw 20vw;
+    background-color: #EAEAEA;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+button:hover {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    padding: 1.3vw 1vw;
+    margin: 1vw 20vw;
+    background-color: #3e4857;
+    color: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+
 /*FOOTER*/
 
 footer {
