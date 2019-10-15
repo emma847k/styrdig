@@ -214,6 +214,23 @@ footer a {
     flex-grow: 1;
 }
 
+/*VIDEOPORTFOLIO*/
+
+#videoportfolio {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 2vw 20vw;
+}
+
+#videoportfolio video {
+    width: 100%;
+    height: auto;
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
+
 /*MEDIA QUERIES*/
 
 @media only screen and (max-width: 562px) {
