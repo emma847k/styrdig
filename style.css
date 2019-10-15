@@ -3,6 +3,18 @@ p {
     font-size: 1em;
 }
 
+a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    color: #ffffff;
+}
+
+a:hover {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    color: #b2b2b2;
+}
+
 h1 {
     font-family: 'Cairo', sans-serif;
     margin: 0;
@@ -34,6 +46,8 @@ body {
     margin: 0;
 
 }
+
+/*SPLASH*/
 
 #splash {
     width: 100vw;
@@ -151,7 +165,7 @@ body {
     flex-grow: 1;
     display: flex;
     flex-wrap: wrap;
-    direction: row;
+    flex-direction: row;
 }
 
 #femte .col {
@@ -184,4 +198,32 @@ body {
 
 #sjete .txt {
     flex-grow: 1;
+}
+
+/*FOOTER*/
+
+footer {
+    background-color: #000000;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2vw 20vw;
+
+}
+
+footer a {
+    flex-grow: 1;
+}
+
+/*MEDIA QUERIES*/
+
+@media only screen and (max-width: 562px) {
+
+    #femte .img_txt {
+        flex-basis: 300px;
+        flex-grow: 1;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
 }
